@@ -34,5 +34,5 @@ count =0
 for i in range (len(pred)):
     if pred[i]==actual[i]:
         count=count+1
-count
+acc=100*count/len(pred)
 
